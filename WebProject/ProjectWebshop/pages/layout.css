@@ -1,0 +1,95 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	margin: 0;
+	padding: 15px;
+	min-width: 360px;
+	font-style: italic;
+	background-image: url("C:\xampp\htdocs\WebProject\ProjectWebshop\images\nintendo1.png");
+}
+
+header {
+	margin: 0 0 45px 0;
+	background-color: #ddbe00;
+	border: 2px ridge #c0001d;
+	color: #ff000d;
+}
+
+nav {
+	font-family: Tahoma;
+	float: left;
+	width: 100px;
+}
+
+nav a.active {
+
+}
+
+aside {
+	float: right;
+	width: 150px;
+	padding: 5px;
+	background-color: #EEE;
+}
+
+section {
+	margin: 0 170px 0 130px;
+	padding: 0 10px;
+}
+
+nav, aside, section {
+	border: 1px dashed silver;
+	margin-bottom: 10px;
+}
+
+
+footer {
+	position: relative;
+	clear: both;
+	font-size: 15px;
+	text-align: center;
+	background-color: #DEF;
+	border: 1px solid silver;
+}
+
+h1 {
+	font-size: 18px;
+	text-align: center;
+}
+h2 {
+	font-size: 14px;
+	margin: 3px 0;
+	text-align: center;
+}
+h3 {
+	font-size: 12px;
+	margin: 2px 0;
+}
+
+img {
+
+}
+
+nav a {
+	font-size: 10px;
+	display: block;
+	padding: 5px;
+	font-weight: bold;
+	color: #333;
+}
+
+nav a:visited {
+	color: #000;
+}
+
+nav a:hover {
+	color: #bbb;
+}
+
+nav p, section p {
+	font-size: 12px;
+}
+
+nav p, aside p {
+	font-size: 8px;
+	margin: 2px 0;
+}

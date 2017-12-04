@@ -1,0 +1,3 @@
+page = Seite
+content = Willkommen auf der Seite
+my_products = Meine Produkte

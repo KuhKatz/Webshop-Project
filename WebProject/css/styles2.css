@@ -1,0 +1,23 @@
+
+/*selecor {property: value [value1, value2,.....]; property: value: .... }*/
+
+h1, h2 {color: red; }
+
+p>a { text-decoration: none; }
+p span {font-weight: bold;}
+p span.important { font-style: italic; }
+.danger {color: yellow; }
+
+#logo { color: blue; }
+
+a:hover {color: black; }
+
+h1:hover {opacity: 0.5;}
+
+span: first-child {color: green}
+
+p::first-letter {font-size: 2em; font-weight: bold;}
+
+p::first-line {letter-spacing: 1px;}
+
+p::after { content: '\0086';}
