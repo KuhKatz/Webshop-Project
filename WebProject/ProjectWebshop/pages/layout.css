@@ -4,7 +4,9 @@ body {
 	padding: 15px;
 	min-width: 360px;
 	font-style: italic;
-	background-image: url("C:\xampp\htdocs\WebProject\ProjectWebshop\images\nintendo1.png");
+	background: url(../images/nintendo1.png) no-repeat fixed center;
+	width: 400px;
+	height: 300px;
 }
 
 header {
@@ -15,9 +17,9 @@ header {
 }
 
 nav {
-	font-family: Tahoma;
+	font-family: Calibri, Arial, sans-serif;
 	float: left;
-	width: 100px;
+	width: 120px;
 }
 
 nav a.active {
@@ -28,7 +30,6 @@ aside {
 	float: right;
 	width: 150px;
 	padding: 5px;
-	background-color: #EEE;
 }
 
 section {
@@ -45,10 +46,24 @@ nav, aside, section {
 footer {
 	position: relative;
 	clear: both;
-	font-size: 15px;
+	font-size: 11px;
 	text-align: center;
 	background-color: #DEF;
 	border: 1px solid silver;
+}
+
+asidelf{
+	float: left;
+	width: 40px;
+}
+
+sectionf {
+	margin: 0 -145px 0 0px;
+}
+
+asidef {
+	float: right;
+	width: 350px;
 }
 
 h1 {
@@ -85,11 +100,11 @@ nav a:hover {
 	color: #bbb;
 }
 
-nav p, section p {
-	font-size: 12px;
-}
-
 nav p, aside p {
 	font-size: 8px;
 	margin: 2px 0;
+}
+
+nav p, section p {
+	font-size: 16px;
 }
