@@ -1,1 +1,0 @@
-<header><h1>NintenGames</h1></header>
