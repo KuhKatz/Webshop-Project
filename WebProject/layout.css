@@ -1,0 +1,117 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	margin: 0;
+	padding: 15px;
+	min-width: 360px;
+	font-style: italic;
+	background: url(../images/nintendo1.png) no-repeat fixed center;
+}
+
+header {
+	margin: 0 0 45px 0;
+	background-color: #ddbe00;
+	border: 2px ridge #c0001d;
+	color: #ff000d;
+}
+
+menu {
+
+}
+
+#Mbar {
+padding: 10px;
+background-color: yellow;
+}
+
+nav {
+	font-family: Calibri, Arial, sans-serif;
+	float: left;
+	width: 120px;
+}
+
+nav a.active {
+
+}
+
+aside {
+	float: right;
+	width: 150px;
+	padding: 5px;
+}
+
+section {
+	margin: 0 170px 0 130px;
+	padding: 0 10px;
+}
+
+nav, aside, section {
+	border: 1px dashed silver;
+	margin-bottom: 10px;
+}
+
+
+footer {
+	position: relative;
+	clear: both;
+	font-size: 11px;
+	text-align: center;
+	background-color: #DEF;
+	border: 1px solid silver;
+}
+
+asidelf{
+	float: left;
+	width: 40px;
+}
+
+sectionf {
+	margin: 0 -145px 0 0px;
+}
+
+asidef {
+	float: right;
+	width: 350px;
+}
+
+h1 {
+	font-size: 18px;
+	text-align: center;
+}
+h2 {
+	font-size: 14px;
+	margin: 3px 0;
+	text-align: center;
+}
+h3 {
+	font-size: 12px;
+	margin: 2px 0;
+}
+
+img {
+
+}
+
+nav a {
+	font-size: 10px;
+	display: block;
+	padding: 5px;
+	font-weight: bold;
+	color: #333;
+}
+
+nav a:visited {
+	color: #000;
+}
+
+nav a:hover {
+	color: #bbb;
+}
+
+nav p, aside p {
+	font-size: 8px;
+	margin: 2px 0;
+}
+
+nav p, section p {
+	font-size: 16px;
+}
